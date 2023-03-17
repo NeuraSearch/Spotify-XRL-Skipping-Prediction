@@ -14,7 +14,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -127,3 +126,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore all CSV files, parquet files, pdf, png, and sub-folders in results
+*.csv
+*.parquet
+*.pdf
+*.png
+results/models/*
+results/opt/*
