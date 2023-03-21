@@ -2,7 +2,7 @@
 
 An investigation on the utility of users’ historical data for the task of sequentially predicting users’ music skipping behaviour using Deep Reinforcement Learning. The analysis is performed on the [Spotify’s Music Streaming Sessions Dataset (MSSD)](https://www.aicrowd.com/challenges/spotify-sequential-skip-prediction-challenge).
 
-This repository contains the source code for the approach outlined in the Full Paper [Why People Skip Music? On Predicting Music Skips using Deep Reinforcement Learning](https://arxiv.org/abs/2301.03881), accepted at the _2023 ACM SIGIR Conference on Human Information Interaction and Retrieval_ ([CHIIR2023](https://sigir.org/chiir2023)).
+This repository contains the source code for the approach outlined in the Full Paper [Why People Skip Music? On Predicting Music Skips using Deep Reinforcement Learning](https://dl.acm.org/doi/10.1145/3576840.3578312), accepted at the _2023 ACM SIGIR Conference on Human Information Interaction and Retrieval_ ([CHIIR2023](https://sigir.org/chiir2023)).
 
 For the YouTube presentation of this paper, please click [here](https://www.youtube.com/watch?v=x8zJtZ4rLJc).
 
@@ -135,3 +135,29 @@ Below is the list of all command line parameters:
 | `--n-trials` | [**Optional**, default: `10`]. Number of trials |
 | `--n-jobs` | [**Optional**, default: `1`] Number of jobs for parallel execution |
 | `--test-set` | The path to testing set (e.g., `data/testing_set/test_set.parquet`) |
+
+# Cite
+Please, cite this work as follows:
+
+```
+@inproceedings{10.1145/3576840.3578312,
+  author = {Meggetto, Francesco and Revie, Crawford and Levine, John and Moshfeghi, Yashar},
+  title = {Why People Skip Music? On Predicting Music Skips Using Deep Reinforcement Learning},
+  year = {2023},
+  isbn = {9798400700354},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3576840.3578312},
+  doi = {10.1145/3576840.3578312},
+  booktitle = {Proceedings of the 2023 Conference on Human Information Interaction and Retrieval},
+  pages = {95–106},
+  numpages = {12},
+  keywords = {Spotify, Deep Reinforcement Learning, Music, Prediction, User Behaviour, Skipping},
+  location = {Austin, TX, USA},
+  series = {CHIIR '23}
+}
+```
+
+```
+Francesco Meggetto, Crawford Revie, John Levine, and Yashar Moshfeghi. 2023. Why People Skip Music? On Predicting Music Skips using Deep Reinforcement Learning. In Proceedings of the 2023 Conference on Human Information Interaction and Retrieval (CHIIR '23). Association for Computing Machinery, New York, NY, USA, 95–106. https://doi.org/10.1145/3576840.3578312
+```
